@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="App" basename="/chatrooms">
           <Route exact path='/' component={LandingPage} />
           <Route path='/createChatRoom' component={CreateChatRoomView} />
           <Route path='/chat/:id' component={ChatView} />
