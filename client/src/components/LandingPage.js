@@ -16,7 +16,7 @@ const LandingPage = (props) => {
           <p>Built with ReactJS, NodeJS, Express, and Socket.io by <a href="http://alaajerbi.com">@alaajerbi</a></p>
         </div>
 	<div className="cta">
-            <Link to='/createChatRoom' class="btn" style={{marginLeft: '10px'}}>Create a room!</Link>
+            <Link to='createChatRoom' class="btn" style={{marginLeft: '10px'}}>Create a room!</Link>
 	</div>
       </div>
      </div>
