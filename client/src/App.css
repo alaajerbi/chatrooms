@@ -173,7 +173,7 @@ box-shadow: -7px 10px 23px 0px rgba(204,204,204,1);
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 0 20px 0;
+  padding: 0px 0 20px 0;
   height: 100vh;
   display: flex;
   flex-direction: column;
