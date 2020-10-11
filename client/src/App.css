@@ -74,6 +74,7 @@
     .create-chat a {
       color: white;
   text-decoration: none;
+  word-wrap: break-word;
     }
 
     .content {
