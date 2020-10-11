@@ -34,7 +34,7 @@ export default class CreateChatRoomView extends Component {
 
   handleCopy() {
     if (!this.state.copied) {
-      let link = CLIENT_URL + "/#/chat/" + this.state.roomId;
+      let link = CLIENT_URL + "/chat/" + this.state.roomId;
       const el = document.createElement('textarea');
       el.value = link;
       el.setAttribute('readonly', '');
@@ -65,7 +65,7 @@ export default class CreateChatRoomView extends Component {
               (this.state.roomId &&
                 (<>     
                   <h3>Chatroom link:</h3>  
-                  <Link to={'/chat/' + this.state.roomId}>{CLIENT_URL + "/#/chat/" + this.state.roomId}</Link>
+                  <Link to={'/chat/' + this.state.roomId}>{CLIENT_URL + "/chat/" + this.state.roomId}</Link>
                   <button className='copy-link-btn' onClick={this.handleCopy}>{this.state.copied ? 'Copied!' : 'Copy link'}</button>
                 </>))       
             }
