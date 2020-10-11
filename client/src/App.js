@@ -8,8 +8,8 @@ import ChatView from './components/chat/ChatView';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App" basename={window.location.pathname || ''}>
+      <Router basename={window.location.pathname || ''}>
+        <div className="App">
           <Route exact path='/' component={LandingPage} />
           <Route path='/createChatRoom' component={CreateChatRoomView} />
           <Route path='/chat/:id' component={ChatView} />
