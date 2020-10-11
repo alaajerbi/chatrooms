@@ -324,7 +324,13 @@ box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.19);
 
 @media only screen and (max-width: 430px) {
   #message-input, #submit {
-    padding: 0 inherit;
+    padding: 0 8px;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  #message-input, #submit {
+    padding: 0 4px;
   }
 }
 
