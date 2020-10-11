@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1113ad4fa31ab4cb1789",
-    "url": "/chatrooms/static/css/main.6e878bf9.chunk.css"
+    "revision": "18d2fd8a94a8b6e88600",
+    "url": "/chatrooms/static/css/main.871097fb.chunk.css"
   },
   {
-    "revision": "1113ad4fa31ab4cb1789",
-    "url": "/chatrooms/static/js/main.1113ad4f.chunk.js"
+    "revision": "18d2fd8a94a8b6e88600",
+    "url": "/chatrooms/static/js/main.18d2fd8a.chunk.js"
   },
   {
     "revision": "151d661e01b4b449ab95",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/chatrooms/static/media/notification.a6b4932b.ogg"
   },
   {
-    "revision": "969545a03c1f10b09c5e6122b52b2248",
+    "revision": "d6350afa75a7d34f72ac9d7b5888fa15",
     "url": "/chatrooms/index.html"
   }
 ];
