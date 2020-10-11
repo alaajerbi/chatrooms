@@ -57,17 +57,17 @@ export default class CreateChatRoomView extends Component {
   }
   render() {
     return (
-      <div className='container-chat'>
-      <div className="content">
+      <div className='create-chat'>
+      <div className="container">
             { (this.state.loading &&
               <p>Creating a chatroom, please wait...</p>)
               ||
               (this.state.roomId &&
-                <div className="room-created-container">     
+                (<>     
                   <h3>Chatroom link:</h3>  
                   <Link to={'/chat/' + this.state.roomId}>{CLIENT_URL + "/#/chat/" + this.state.roomId}</Link>
                   <button className='copy-link-btn' onClick={this.handleCopy}>{this.state.copied ? 'Copied!' : 'Copy link'}</button>
-                </div>)       
+                </>))       
             }
       </div>
       </div>

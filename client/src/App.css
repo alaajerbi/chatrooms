@@ -1,9 +1,10 @@
     @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
 
-    * {
+    :root, html, body {
     margin: 0;
     padding: 0;
     border: 0;
+    
     }
 
     body {
@@ -17,19 +18,19 @@
     #root, .App {
   height: 100%;
 }
-    .main {
+    .landing-page {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 100%;
-      width: 100%;
+      height: 100vh;
     }
 
     h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
     }
 
     a {
@@ -39,11 +40,19 @@
     }
 
     .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       text-align: center;
+      padding: 30px 15px
     }
 
-    .container-chat {
+    .create-chat {
+      color: white;
       background-color: #0099ff;
+      box-sizing: border-box;
+      padding: 30px 15px;
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -88,7 +97,7 @@
 }
 
 .cta {
-	margin-top: 20px;
+	margin-top: 15px;
 	text-align: center
 }
 
@@ -98,8 +107,7 @@
 }
 
     .section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+   text-align: center;
 
     }
 
@@ -118,13 +126,6 @@
 box-shadow: -7px 10px 23px 0px rgba(204,204,204,1);
     }
 
-    hero {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    }
 
     footer {
       margin-top: 10rem;
@@ -278,4 +279,37 @@ box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.19);
   padding-top: 50px;
   clear: both;
   text-align: center;
+}
+
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+
+}
+
+@media only screen and (max-width: 540px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
 }

@@ -5,22 +5,21 @@ import '../App.css';
 
 const LandingPage = (props) => {
   return (
-     <div className="main">
-       <hero>
-        <img src={logo} alt="Logo" width="200"/>
-      </hero>
+    <div className="landing-page">
 
-        <div className="container">
-        <div class="section">
-          <h1>Chat Rooms with Time Limit</h1>
-          <p>Built with ReactJS, NodeJS, Express, and Socket.io by <a href="http://alaajerbi.com">@alaajerbi</a></p>
+
+      <div className="container">
+          <img className="logo" src={logo} alt="Logo" width="100%" />
+
+        <h1>Chat Rooms with Time Limit</h1>
+        <p>Built with ReactJS, NodeJS, Express, and Socket.io by <a href="http://alaajerbi.com">@alaajerbi</a></p>
+        <div className="cta">
+          <Link to='createChatRoom' className="btn" style={{ marginLeft: '10px' }}>Create a room!</Link>
         </div>
-	<div className="cta">
-            <Link to='createChatRoom' class="btn" style={{marginLeft: '10px'}}>Create a room!</Link>
-	</div>
       </div>
-     </div>
-    
+
+    </div>
+
   )
 }
 
