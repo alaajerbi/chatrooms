@@ -7,7 +7,7 @@ Built with ReactJS, NodeJS, Express, and Socket.io.
 
 I built it because it looked like a challenge, and I learned a lot throughout the process.
 
-### Try the app [here](https://alaajerbi.com/chatrooms).
+### Try the app [here](https://alaajerbi.com/chatrooms) or clone the repo to run it locally.
 
 ## How it works?
 
