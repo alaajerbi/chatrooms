@@ -1,8 +1,9 @@
 # Chat App with Time Limit
-![Chat App with Time Limit](chat-app.png)
 
 A chat app that allows you to create private chat rooms that gets destroyed after a certain amount of time.
 Built with ReactJS, NodeJS, Express, and Socket.io.
+
+![Chat App with Time Limit](chat-app.png)
 
 I built it because it looked like a challenge, and I learned a lot throughout the process.
 
