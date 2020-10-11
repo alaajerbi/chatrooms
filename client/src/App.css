@@ -44,11 +44,11 @@
 
     .container-chat {
       background-color: #0099ff;
-      height: 100vw;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 
     }
 
