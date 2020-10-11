@@ -26,6 +26,7 @@
       align-items: center;
       flex-direction: column;
       height: 100vh;
+      max-height: 100vh;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -196,7 +197,7 @@ box-shadow: -7px 10px 23px 0px rgba(204,204,204,1);
 }
 
 .chat-countdown {
-  margin-top: 35px;
+  margin-top: 10px;
   margin-right: 0px;
   height: 60px;
   position: sticky;
