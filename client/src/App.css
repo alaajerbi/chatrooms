@@ -6,6 +6,8 @@
     border: 0;
     
     }
+  
+
 
     body {
     font-family: 'Roboto', sans-serif;
@@ -31,6 +33,10 @@
     margin-top: 10px;
     font-size: 2em;
     margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
     }
 
     .landing-page a {
@@ -104,6 +110,10 @@
 .cta {
 	margin-top: 15px;
 	text-align: center
+}
+
+.cta a {
+  color: white;
 }
 
 .room-created-container {
@@ -311,6 +321,13 @@ box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.19);
   }
 }
 
+
+@media only screen and (max-width: 430px) {
+  #message-input, #submit {
+    padding: 0 inherit;
+  }
+}
+
 @media only screen and (max-width: 328px) {
   h1, h2, h3, h4, h5, h6 {
     font-size: 1.4em;
@@ -320,7 +337,4 @@ box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.19);
     font-size: 0.8em;
   }
 
-  #message-input, #submit {
-    padding: 0 inherit;
-  }
 }
