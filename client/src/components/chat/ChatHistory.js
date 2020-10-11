@@ -52,7 +52,7 @@ export class ChatHistory extends Component {
 
     const stopMessage = (
       <div className="stop-message">
-        { (destroyed && "Your partner has left the room.") || (over && "Time is up!") } <Link to='/createChatRoom' style={{ color: "#222" }}>Create a new room?</Link>
+        { (destroyed && "Your partner has left the room.") || (over && "Time is up!") } <Link to='createChatRoom' style={{ color: "#222" }}>Create a new room?</Link>
         <br />
         <br />
       </div>
