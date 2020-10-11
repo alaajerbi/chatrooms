@@ -316,4 +316,8 @@ box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.19);
   p {
     font-size: 0.8em;
   }
+
+  #message-input, #submit {
+    padding: 0 inherit;
+  }
 }
