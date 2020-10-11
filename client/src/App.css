@@ -45,25 +45,23 @@
     .container-chat {
       background-color: #0099ff;
       height: 100vw;
-      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-  font-family: 'Roboto Mono', monospace;
+      font-family: 'Roboto Mono', monospace;
 
     }
 
     .content {
       text-align: center;
       color: white;
-      padding: 40px;
+      padding: 0px 20px;
 
     }
 
 .content a {
   margin-top: 0px;
   text-decoration: none;
-  font-size: 24px;
   color: white;
   display: block;
   font-family: 'Roboto Mono', monospace;
@@ -73,7 +71,7 @@
 .content h3 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-family: 'Roboto Mono', monospace;
 
 }
