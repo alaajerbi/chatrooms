@@ -63,6 +63,7 @@
 
     .create-chat a {
       color: white;
+  text-decoration: none;
     }
 
     .content {
@@ -176,11 +177,13 @@ box-shadow: -7px 10px 23px 0px rgba(204,204,204,1);
   -ms-overflow-style: none;
 }
 
+.chat-history a {
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
-
-::-moz-sc
 
 .chat-countdown {
   margin-top: 35px;
