@@ -5,7 +5,7 @@ Built with ReactJS, NodeJS, Express, and Socket.io.
 
 ![Chat App with Time Limit](chat-app.png)
 
-I built it because it looked like a challenge, and I learned a lot throughout the process.
+It was a good challenge and I learned a lot about how socket connections work.
 
 ### Try the app [here](https://alaajerbi.com/chatrooms) or clone the repo to run it locally.
 
