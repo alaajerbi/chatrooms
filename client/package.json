@@ -1,8 +1,8 @@
 {
   "name": "chatrooms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "https://alaajerbi.github.io/chatrooms",
+  "homepage": "https://alaajerbi.com/chatrooms",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.3",
