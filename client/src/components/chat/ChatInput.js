@@ -50,7 +50,7 @@ export class ChatInput extends Component {
     return (
       <form action='' className='chat-input'>
         <input autoFocus ref={(input) => { this.messageInput = input}} type="text" id='message-input' value={this.state.message} onChange={this.updateMessage} placeholder='Type something...' disabled={ !chatting}/>
-        <button id='submit' onClick={this.submitMessage} disabled={ !chatting }><img src={send} /></button>
+        <button id='submit' onClick={this.submitMessage} disabled={ !chatting }><img src={send} alt="Send" /></button>
       </form>
     );
   }

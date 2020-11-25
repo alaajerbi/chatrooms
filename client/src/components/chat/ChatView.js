@@ -65,7 +65,7 @@ export default class ChatView extends Component {
     })
 
     socket.on('message sent', data => {
-      if (data.senderId != this.state.clientId) {
+      if (data.senderId !== this.state.clientId) {
         this.notificationSound.play();
       }
       console.log('Message sent successfully!');
