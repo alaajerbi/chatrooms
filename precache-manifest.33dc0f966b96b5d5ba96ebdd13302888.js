@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/chatrooms/static/media/notification.a6b4932b.ogg"
   },
   {
-    "revision": "4ad63e4e1e44c29cc0f523138f3aff3e",
+    "revision": "be2c5df57bea5181540b80f8136f096a",
     "url": "/chatrooms/index.html"
   }
 ];
