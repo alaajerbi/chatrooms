@@ -32,11 +32,14 @@ export default class CreateChatRoomView extends Component {
     });
   }
 
+  getChatroomLink() {
+    return CLIENT_URL + "/#/chat/" + this.state.roomId;
+  }
+
   handleCopy() {
     if (!this.state.copied) {
-      let link = CLIENT_URL + "#/chat/" + this.state.roomId;
       const el = document.createElement('textarea');
-      el.value = link;
+      el.value = this.getChatroomLink();
       el.setAttribute('readonly', '');
       el.style.position = 'absolute';
       el.style.left = '-9999px';
@@ -65,7 +68,7 @@ export default class CreateChatRoomView extends Component {
               (this.state.roomId &&
                 (<>     
                   <h3>Chatroom link:</h3>  
-                  <Link to={'/chat/' + this.state.roomId}>{CLIENT_URL + "/chat/" + this.state.roomId}</Link>
+                  <Link to={'/chat/' + this.state.roomId}>{this.getChatroomLink()}</Link>
                   <button className='copy-link-btn' onClick={this.handleCopy}>{this.state.copied ? 'Copied!' : 'Copy link'}</button>
                 </>))       
             }
