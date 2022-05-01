@@ -34,7 +34,7 @@ export default class CreateChatRoomView extends Component {
 
   handleCopy() {
     if (!this.state.copied) {
-      let link = CLIENT_URL + "/chat/" + this.state.roomId;
+      let link = CLIENT_URL + "#/chat/" + this.state.roomId;
       const el = document.createElement('textarea');
       el.value = link;
       el.setAttribute('readonly', '');
